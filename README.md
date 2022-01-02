@@ -15,7 +15,7 @@
 Connect('Web');
 while(**Not EOF**)
   Send(Code),**Analyze** Submit();
-FIO\>\>**File**;
+FIO>>**File**;
 ```
 # Front:
 - Shoot, special judgment
