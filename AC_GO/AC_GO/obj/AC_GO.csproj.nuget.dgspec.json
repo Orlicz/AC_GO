@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yangb\\source\\repos\\AC_GO\\AC_GO\\AC_GO.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yangb\\source\\repos\\AC_GO\\AC_GO\\AC_GO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yangb\\source\\repos\\AC_GO\\AC_GO\\AC_GO.csproj",
+        "projectName": "AC_GO",
+        "projectPath": "C:\\Users\\yangb\\source\\repos\\AC_GO\\AC_GO\\AC_GO.csproj",
+        "packagesPath": "C:\\Users\\yangb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yangb\\source\\repos\\AC_GO\\AC_GO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yangb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Selenium.RC": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[97.0.4692.3600-beta, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[96.0.1054.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
